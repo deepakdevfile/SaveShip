@@ -1,0 +1,67 @@
+# =====================================================================
+#  RULES FILE  -  the only file an ops/marketing person needs to edit.
+#  Change a number, save, then re-run:  python -m src.run_batch
+#  (or just refresh the dashboard).  No code changes needed.
+#
+#  "risk" = the system's estimate (0.00 - 1.00) of the chance an order
+#  will be refused / never delivered (RTO).  0.30 means 30%.
+# =====================================================================
+
+risk_bands:
+  # Cut-offs differ for first-time vs repeat customers because losing a first-time
+  # customer also wastes the ~Rs 300 we paid to acquire them
+  # Run  python -m src.suggest_thresholds  to see the Rs-optimal values for the current economics.
+  repeat_customers:
+    ship_as_is_below: 0.26        # under 26% risk -> ship normally
+    confirm_below: 0.30           # 26% - 30%      -> ask customer to confirm on WhatsApp
+    nudge_below: 0.82             # 30% - 82%      -> offer a prepaid discount
+    # 82% and above              -> hold / cancel
+  first_time_customers:
+    ship_as_is_below: 0.37        # first-timers get more benefit of the doubt
+    confirm_below: 0.42
+    nudge_below: 0.90
+    # 90% and above              -> hold / cancel
+
+# ---- Marketing protection: don't burn the Rs 300 we paid to acquire a customer ----
+first_order_protection:
+  enabled: true
+  # A first-time customer is never auto-cancelled unless risk is at least this high...
+  cancel_first_orders_only_above: 0.90   # keep equal to nudge_below above
+  # ...or the order details are unusable (fake name + junk address, or no valid phone).
+  # Otherwise they get a confirmation / prepaid offer instead of a cancellation.
+
+# ---- Operations protection: stop repeat offenders (customer-level, not pincode-level) ----
+repeat_offender:
+  prior_rto_count_to_block_cod: 2     # 2+ earlier returns -> no COD, prepaid only
+  # If they decline prepaid the order is put on hold.
+
+# ---- Hard data-quality rules ----
+data_quality:
+  hold_if_junk_address_and_fake_name: true
+  hold_if_phone_invalid_and_address_junk: true
+  # A junk address on its own is NOT cancelled: we ask the customer for a full address on WhatsApp.
+
+# ---- Measurement: keep learning whether the rules work ----
+measurement:
+  holdout_pct: 5          # in live use, 5% of would-be-intervened orders are shipped as-is at random,
+                          # so we can still measure what WOULD have happened (otherwise we never find out)
+
+# ---- Prepaid nudge ----
+prepaid_nudge:
+  min_discount_pct: 3                 # never offer less than 3% of order value
+  max_discount_pct: 8                 # never offer more than 8%
+  # Within these limits the system picks the discount that earns us the most Rs
+  max_discount_rs: 150                # and never more than Rs 150
+  round_to_rupees: 10
+
+# ---- WhatsApp flow timings ----
+whatsapp:
+  brand_name: KT Haircare              # shown in messages (placeholder - desired brand name needed to put by ops/marketing person)
+  send_window_start_hour: 9           # no messages before 9am ...
+  send_window_end_hour: 21            # ... or after 9pm (queued for next morning)
+  reminder_after_hours: 6
+  give_up_after_hours: 24
+  # If the customer never replies in 24h:
+  no_reply_cancel_if_risk_above: 0.28   # above this -> cancel;  at/below -> ship COD anyway
+  max_unclear_replies: 2              # after 2 unclear replies -> hand to a human
+  hinglish_states: [Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Delhi, Maharashtra]

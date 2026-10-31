@@ -1,0 +1,2434 @@
+{
+ "train_n": 1658,
+ "test_n": 329,
+ "test_actual_rto": 0.2613981762917933,
+ "buckets_sep": [
+  {
+   "action": "HOLD_CANCEL",
+   "orders": 6,
+   "actual_rto_rate": 0.833,
+   "net": -264.707,
+   "first_time": 6
+  },
+  {
+   "action": "NUDGE_TO_PREPAID",
+   "orders": 42,
+   "actual_rto_rate": 0.429,
+   "net": 861.211,
+   "first_time": 28
+  },
+  {
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "orders": 37,
+   "actual_rto_rate": 0.486,
+   "net": 102.256,
+   "first_time": 31
+  },
+  {
+   "action": "SHIP_AS_IS",
+   "orders": 244,
+   "actual_rto_rate": 0.184,
+   "net": 0.0,
+   "first_time": 176
+  }
+ ],
+ "ours_sep_orders": [
+  {
+   "order_id": "KT100641",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101374",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101413",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45386570979887114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101654",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100082",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100337",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.642554942022121,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100112",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101640",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100346",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100345",
+   "action": "SHIP_AS_IS",
+   "risk": 0.36032258794431776,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101810",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100891",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101118",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5588482575205658,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101822",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.40915811501602356,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100906",
+   "action": "HOLD_CANCEL",
+   "risk": 0.5857270623367792,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101672",
+   "action": "SHIP_AS_IS",
+   "risk": 0.31937241723100335,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100480",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100609",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101841",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100615",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101607",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.30414626247248155,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101484",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100689",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101533",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101619",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100929",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101303",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100281",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101249",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101511",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5588482575205658,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101166",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101444",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.2696394875389684,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101056",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101137",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101352",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.6535399482060948,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101556",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100526",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.39749295829666237,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100187",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100731",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101443",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT102002",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101290",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101522",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100531",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101102",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100479",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100597",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.7851980362729396,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101171",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.8126578091302831,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100226",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1247019141892328,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100076",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101494",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100201",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100044",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.8094337325212286,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101703",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100238",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5190107626028302,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101069",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100682",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2396126206262871,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100428",
+   "action": "SHIP_AS_IS",
+   "risk": 0.21087941937847518,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101554",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101673",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.3526178973929876,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101943",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101235",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100391",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100118",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100487",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101358",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100913",
+   "action": "HOLD_CANCEL",
+   "risk": 0.6404199907554726,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101287",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.3526178973929876,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101455",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101507",
+   "action": "SHIP_AS_IS",
+   "risk": 0.15335403745781406,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101729",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101154",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100421",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101209",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.30414626247248155,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101558",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.2894452132644526,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100542",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101495",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101364",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101496",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100060",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100809",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100351",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101405",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100753",
+   "action": "SHIP_AS_IS",
+   "risk": 0.30702405365476304,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100172",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100904",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101653",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.3417023498441452,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100663",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5588482575205658,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100433",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100703",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100582",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100054",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101439",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100468",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101419",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100928",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.6372996114572421,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100006",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.2696394875389684,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100768",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101938",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100049",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101526",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100865",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101871",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101764",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101240",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101723",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101034",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101479",
+   "action": "SHIP_AS_IS",
+   "risk": 0.21087941937847518,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100166",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.4331343511611345,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101214",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100996",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5190107626028302,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101667",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100749",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100978",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101089",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101193",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100174",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100842",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.6535399482060948,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101207",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100017",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100478",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100938",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101731",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100756",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101759",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.39749295829666237,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101597",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100389",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101394",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100726",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5560596759201165,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100697",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5761377649382464,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101031",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.6535399482060948,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101927",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101150",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100266",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.40915811501602356,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101256",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.39749295829666237,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100506",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100823",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100648",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101687",
+   "action": "SHIP_AS_IS",
+   "risk": 0.31937241723100335,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100963",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5190107626028302,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100970",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100159",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100280",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100848",
+   "action": "SHIP_AS_IS",
+   "risk": 0.15971261438738463,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100461",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100590",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.8453036666612265,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100725",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100429",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100089",
+   "action": "SHIP_AS_IS",
+   "risk": 0.21087941937847518,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100360",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101059",
+   "action": "SHIP_AS_IS",
+   "risk": 0.30899480139987384,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101876",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100911",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100645",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100188",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101506",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2396126206262871,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101528",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101569",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101329",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101477",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101095",
+   "action": "HOLD_CANCEL",
+   "risk": 0.7261815083446681,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100047",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100340",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100846",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101633",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45386570979887114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100156",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101485",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100059",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100387",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101341",
+   "action": "SHIP_AS_IS",
+   "risk": 0.30702405365476304,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101903",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2558339346315119,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100804",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45386570979887114,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101905",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100997",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5190107626028302,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101908",
+   "action": "SHIP_AS_IS",
+   "risk": 0.30702405365476304,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101066",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.3843086405713014,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100736",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101412",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.6585681482543818,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100856",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100252",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100402",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101583",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101916",
+   "action": "SHIP_AS_IS",
+   "risk": 0.15335403745781406,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101953",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100600",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100556",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101463",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100779",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100051",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101010",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.8453036666612265,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100181",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101146",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101315",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101545",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100965",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101622",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101020",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100022",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101692",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100927",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101433",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100734",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101497",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101282",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101677",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100631",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101449",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100943",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100991",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100014",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101761",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.39756717479001263,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101602",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101933",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101083",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1247019141892328,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100367",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101063",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101107",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100163",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100140",
+   "action": "SHIP_AS_IS",
+   "risk": 0.36032258794431776,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100109",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101694",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101872",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100896",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101621",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101260",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.38212317605402607,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101231",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100321",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101339",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100981",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100052",
+   "action": "SHIP_AS_IS",
+   "risk": 0.36032258794431776,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101514",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100745",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100882",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100457",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101401",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100950",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100121",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100306",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.2894452132644526,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100905",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100458",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101051",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.37149727891840356,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100847",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.580902300532333,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101647",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101548",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT151207",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101148",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100568",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101210",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5588482575205658,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101420",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT150226",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1247019141892328,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101642",
+   "action": "HOLD_CANCEL",
+   "risk": 0.884824297789439,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100521",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.8126578091302831,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101530",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101490",
+   "action": "SHIP_AS_IS",
+   "risk": 0.36032258794431776,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100320",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100898",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101126",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101789",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100327",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.9126777633633748,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101149",
+   "action": "HOLD_CANCEL",
+   "risk": 0.9159778604460292,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101534",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101578",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.5167021400114227,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101797",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2602002931574007,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101586",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101391",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101096",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101369",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100941",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101823",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100989",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100182",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101895",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101174",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2558339346315119,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101402",
+   "action": "SHIP_AS_IS",
+   "risk": 0.15971261438738463,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100342",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100335",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100460",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100832",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101521",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101236",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100747",
+   "action": "HOLD_CANCEL",
+   "risk": 0.6404199907554726,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100797",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.6585681482543818,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100083",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100165",
+   "action": "SHIP_AS_IS",
+   "risk": 0.3173658805561547,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100056",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101918",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100775",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101039",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101314",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT150345",
+   "action": "SHIP_AS_IS",
+   "risk": 0.36032258794431776,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100766",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100064",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100719",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100730",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101383",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101267",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100322",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.39749295829666237,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100030",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.45908539770655676,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100959",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101307",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100176",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100919",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101866",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101139",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100881",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100845",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100439",
+   "action": "SHIP_AS_IS",
+   "risk": 0.22503580147184893,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100844",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101681",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100446",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2001010255508114,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100994",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101645",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2396126206262871,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100079",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101758",
+   "action": "SHIP_AS_IS",
+   "risk": 0.31937241723100335,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100836",
+   "action": "SHIP_AFTER_CONFIRMATION",
+   "risk": 0.5014076170030499,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100923",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101456",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 0,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101787",
+   "action": "SHIP_AS_IS",
+   "risk": 0.2695784657626592,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101603",
+   "action": "SHIP_AS_IS",
+   "risk": 0.16441093239453247,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101284",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101617",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1986251602477111,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT100256",
+   "action": "SHIP_AS_IS",
+   "risk": 0.36032258794431776,
+   "rto": 1,
+   "first_order": true
+  },
+  {
+   "order_id": "KT101219",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100134",
+   "action": "SHIP_AS_IS",
+   "risk": 0.1300549703867209,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101663",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101508",
+   "action": "SHIP_AS_IS",
+   "risk": 0.09200686906491669,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT100724",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.30414626247248155,
+   "rto": 1,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101410",
+   "action": "NUDGE_TO_PREPAID",
+   "risk": 0.40915811501602356,
+   "rto": 0,
+   "first_order": false
+  },
+  {
+   "order_id": "KT101693",
+   "action": "SHIP_AS_IS",
+   "risk": 0.07381729468424013,
+   "rto": 0,
+   "first_order": false
+  }
+ ],
+ "ops_cancelled_orders": 89,
+ "ops_cancelled_first_time": 71,
+ "ops_cancelled_actual_rto_rate": 0.4943820224719101,
+ "ops_cancelled_genuine": 45,
+ "ours_hold_genuine": 1,
+ "ours_hold_n": 6,
+ "policies": {
+  "with_CAC_penalty_300": {
+   "ours_net_sample": 698.7594398859417,
+   "ours_net_month": 3504.416643804875,
+   "ops_net_sample": -26330.47342553607,
+   "ops_net_month": -132052.5262982812,
+   "marketing_ship_all_month": 0.0,
+   "ours_components_month": {
+    "saved_rto": 20555.641003298413,
+    "recovered_sales": 3485.9571581048567,
+    "lost_genuine": 17782.074333777808,
+    "costs": 2755.1071838205894
+   },
+   "ops_components_month": {
+    "saved_rto": 38927.110348901835,
+    "recovered_sales": 0.0,
+    "lost_genuine": 170979.63664718307,
+    "costs": 0.0
+   }
+  },
+  "no_CAC_penalty": {
+   "ours_net_sample": 1890.5412468396162,
+   "ours_net_month": 9481.437864089261,
+   "ops_net_sample": -16375.927663465025,
+   "ops_net_month": -82128.5125979249,
+   "marketing_ship_all_month": 0.0,
+   "ours_components_month": {
+    "saved_rto": 20493.95320376918,
+    "recovered_sales": 3342.3239484435703,
+    "lost_genuine": 11892.45954712724,
+    "costs": 2462.3797409962476
+   },
+   "ops_components_month": {
+    "saved_rto": 38927.110348901835,
+    "recovered_sales": 0.0,
+    "lost_genuine": 121055.62294682674,
+    "costs": 0.0
+   }
+  }
+ },
+ "baseline_rto_loss_month": 73063.40425531915,
+ "sensitivity": [
+  {
+   "confirm_rate_if_would_rto": 0.35,
+   "prepaid_conversion_max": 0.2,
+   "ours_net_month": 7691.118961462739
+  },
+  {
+   "confirm_rate_if_would_rto": 0.35,
+   "prepaid_conversion_max": 0.4,
+   "ours_net_month": 9619.518498252204
+  },
+  {
+   "confirm_rate_if_would_rto": 0.35,
+   "prepaid_conversion_max": 0.6,
+   "ours_net_month": 11547.91803504167
+  },
+  {
+   "confirm_rate_if_would_rto": 0.55,
+   "prepaid_conversion_max": 0.2,
+   "ours_net_month": 1439.866720285761
+  },
+  {
+   "confirm_rate_if_would_rto": 0.55,
+   "prepaid_conversion_max": 0.4,
+   "ours_net_month": 3504.416643804875
+  },
+  {
+   "confirm_rate_if_would_rto": 0.55,
+   "prepaid_conversion_max": 0.6,
+   "ours_net_month": 5568.966567323991
+  },
+  {
+   "confirm_rate_if_would_rto": 0.75,
+   "prepaid_conversion_max": 0.2,
+   "ours_net_month": -4802.9440688804525
+  },
+  {
+   "confirm_rate_if_would_rto": 0.75,
+   "prepaid_conversion_max": 0.4,
+   "ours_net_month": -2593.802306620929
+  },
+  {
+   "confirm_rate_if_would_rto": 0.75,
+   "prepaid_conversion_max": 0.6,
+   "ours_net_month": -384.6605443614063
+  }
+ ]
+}

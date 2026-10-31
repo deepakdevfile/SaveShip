@@ -1,0 +1,24 @@
+# Money assumptions.  FACTS come from the brief; ASSUMPTIONS are marked and
+# will be replaced with measured values after the first 2 weeks of pilot.
+
+facts:
+  forward_shipping: 65
+  return_shipping: 65
+  packaging_handling: 25
+  damaged_share_of_returns: 0.08
+  avg_product_cost_damaged: 180
+  prepaid_rto_rate: 0.04
+  gross_margin: 0.62
+  avg_order_value: 649
+  orders_per_month: 3000
+  cac_meta: 300
+assumptions:                       # ASSUMPTIONS - not given in the brief
+  confirm_rate_if_genuine: 0.90    # share of genuine buyers who tap "yes" on WhatsApp
+  confirm_rate_if_would_rto: 0.55  # share of would-be-returners who still confirm
+  prepaid_conversion_max: 0.40     # best-case share who switch to prepaid
+  prepaid_conversion_k_pct: 4.0    # how fast conversion rises with discount (% of order)
+  risky_conversion_relative: 0.30   # would-be returners switch to prepaid at 30% the rate of genuine buyers
+  risky_prepaid_rto_rate: 0.15      # if a would-be returner does pay online, 15% still return
+  payment_gateway_fee_pct: 2.0
+  whatsapp_cost_per_conversation: 1.0   # Rs, approx. for an India utility template
+  first_order_replacement_cost: 300     # we treat a lost genuine first order as costing a new CAC
